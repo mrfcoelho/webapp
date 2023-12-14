@@ -12,7 +12,7 @@ pipeline {
     stage('Build') {
       steps {
         echo 'Build started'
-        sh 'docker build -f app/Dockerfile -t mynginx:latest .'
+        sh 'docker build -f app/Dockerfile -t mynginx:latest app/'
         echo 'Build finished'
       }
     }
