@@ -19,3 +19,11 @@ The following steps were considered:
 * build docker image
 * run basic health check
 * push docker image to dockerhub
+
+The pipeline as described above was tested as shown in the following print:
+![pipeline](img/pipeline.png)
+
+The image created can be pulled from [a dockerhub](https://hub.docker.com/r/mrfcoelho/mynginx) using:
+```
+docker pull mrfcoelho/mynginx
+```
