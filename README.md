@@ -12,3 +12,10 @@ To build the image and launch a container with it run the following inside main 
 ```
 docker-compose up --build -d
 ```
+
+## Jenkins Pipeline
+The following steps were considered:
+* pull source code from github
+* build docker image
+* run basic health check
+* push docker image to dockerio
