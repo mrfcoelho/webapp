@@ -1,0 +1,15 @@
+version: "3"
+services:
+  app:
+    build: 
+      context: ./app
+    volumes:
+     - nginx-logs:/var/log/nginx
+    ports:
+      - "8888:80"
+    networks:
+      - mynet
+volumes:
+  nginx-logs:
+networks:
+  mynet:
