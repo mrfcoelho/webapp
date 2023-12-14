@@ -18,4 +18,4 @@ The following steps were considered:
 * pull source code from github
 * build docker image
 * run basic health check
-* push docker image to dockerio
+* push docker image to dockerhub
